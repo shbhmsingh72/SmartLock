@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

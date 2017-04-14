@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/selector_txt_btn_unlock.xml",
+        "source": "/home/shubham/SmartLock-master/app/src/main/res/color/selector_txt_btn_unlock.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
+        "source": "/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/res/color/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
+        "source": "/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/res/color/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/color/abc_secondary_text_material_dark.xml"
+    }
+]

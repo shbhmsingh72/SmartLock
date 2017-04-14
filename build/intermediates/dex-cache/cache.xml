@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/shubham/LockScreenApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae6f3ee1b7fa7643cae6825063c3d7d051166503">
+        <dex dex="/home/shubham/LockScreenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_66107588171c6cf1ac63594a1600b675e4376b58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/shubham/.android/build-cache/4e43355fc9b585825664434174b6fe9face04479/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/shubham/LockScreenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f3e5751ab992a282e0296cd053431fc3a1c552c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/shubham/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/shubham/LockScreenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_4a15e5198517caf12b383be550f5984a35983a4a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/shubham/LockScreenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_19e8edea2d3101a77e1819296d120ae65d649a1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/shubham/.android/build-cache/4e43355fc9b585825664434174b6fe9face04479/output/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/shubham/LockScreenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_90b901446af839a27e91ec75359fa0952ca43eef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/shubham/LockScreenApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/shubham/LockScreenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_70091423bdf08dc4a1e5bc069d3c47e076a7e7a3/classes.dex" />
+    </item>
+
+</items>
