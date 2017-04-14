@@ -3,57 +3,93 @@
 
     <item
         is-multidex="true"
-        jar="/home/shubham/LockScreenApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ae6f3ee1b7fa7643cae6825063c3d7d051166503">
-        <dex dex="/home/shubham/LockScreenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_66107588171c6cf1ac63594a1600b675e4376b58/classes.dex" />
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/home/shubham/SmartLock-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_36706826429466e6ac483b93f17119c3720fa4a7/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/shubham/.android/build-cache/4e43355fc9b585825664434174b6fe9face04479/output/jars/classes.jar"
+        jar="/home/shubham/SmartLock-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/home/shubham/LockScreenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f3e5751ab992a282e0296cd053431fc3a1c552c3/classes.dex" />
+        sha1="cff1260d3b9ca5ec14aacc57b3b1ffd76f0afefa">
+        <dex dex="/home/shubham/SmartLock-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_34e5e2cb7f13bc836cee8161d327755e76923efe/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/shubham/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jar="/home/shubham/.android/build-cache/6923b0b2da90f7d2d2bce85b6d075e2716756e14/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/home/shubham/LockScreenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_4a15e5198517caf12b383be550f5984a35983a4a/classes.dex" />
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/home/shubham/SmartLock-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c74d65bb73da3f99ede880d7b91b8d85f67843b8/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/jars/classes.jar"
+        jar="/home/shubham/.android/build-cache/229fb760d8db7a8c8afcb11674a3200c94d2fe3c/output/jars/libs/internal_impl-23.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/home/shubham/LockScreenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_19e8edea2d3101a77e1819296d120ae65d649a1e/classes.dex" />
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/home/shubham/SmartLock-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_f1a1b80c1ff8f313d9669cf3952bf086d24fc3de/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/shubham/.android/build-cache/4e43355fc9b585825664434174b6fe9face04479/output/jars/libs/internal_impl-22.2.1.jar"
+        jar="/home/shubham/.android/build-cache/229fb760d8db7a8c8afcb11674a3200c94d2fe3c/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/home/shubham/LockScreenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_90b901446af839a27e91ec75359fa0952ca43eef/classes.dex" />
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/home/shubham/SmartLock-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5ac7ea619a92b979f2440e01aac13595a1255ec9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/shubham/LockScreenApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/home/shubham/.android/build-cache/4fde0eafa659e544537f1a20a950d2304dc4e6b8/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/home/shubham/LockScreenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_70091423bdf08dc4a1e5bc069d3c47e076a7e7a3/classes.dex" />
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/home/shubham/SmartLock-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_df7a07cbb2bb79a09089611866cbc6985aaafed2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/shubham/.android/build-cache/fbbdc9c846d7c3af0d641cf37f69bbd5e7d3736c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/home/shubham/SmartLock-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_892bb80ee987584b66a09b0ff6103a06c22c7030/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/shubham/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/home/shubham/SmartLock-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.0_3613fc17e5b21e28892e3451a7b1b396f34c30e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/shubham/SmartLock-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/shubham/SmartLock-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_629805d3c927f554e0ff87050491e17656ef081c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/shubham/.android/build-cache/1aa10ca80a9992283356308675ae1e5c1bee0780/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/home/shubham/SmartLock-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b3728d9756165d1d5fba06dfab8a67aa2d9c9c41/classes.dex" />
     </item>
 
 </items>

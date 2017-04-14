@@ -22,6 +22,8 @@ import android.graphics.Paint;
 import com.shubham.lockscreen.ui.GraphicOverlay;
 import com.google.android.gms.vision.face.Face;
 
+import java.util.concurrent.locks.Lock;
+
 /**
  * Graphic instance for rendering face position, orientation, and landmarks within an associated
  * graphic overlay view.
@@ -32,7 +34,7 @@ class FaceGraphic extends GraphicOverlay.Graphic {
     private static final float ID_Y_OFFSET = 50.0f;
     private static final float ID_X_OFFSET = -50.0f;
     private static final float BOX_STROKE_WIDTH = 5.0f;
-
+    private static int   flag=0;
     private static final int COLOR_CHOICES[] = {
             Color.BLUE,
             Color.CYAN,
@@ -54,7 +56,6 @@ class FaceGraphic extends GraphicOverlay.Graphic {
 
     FaceGraphic(GraphicOverlay overlay) {
         super(overlay);
-
         mCurrentColorIndex = (mCurrentColorIndex + 1) % COLOR_CHOICES.length;
         final int selectedColor = COLOR_CHOICES[mCurrentColorIndex];
 
@@ -112,5 +113,6 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         float right = x + xOffset;
         float bottom = y + yOffset;
         canvas.drawRect(left, top, right, bottom, mBoxPaint);
+
     }
 }
