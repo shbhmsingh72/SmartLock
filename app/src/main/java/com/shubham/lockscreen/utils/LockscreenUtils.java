@@ -1,5 +1,7 @@
 package com.shubham.lockscreen.utils;
-
+/**
+ * Created by shubham on 30/3/17.
+ */
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.KeyguardManager;

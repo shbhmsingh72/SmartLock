@@ -4,12 +4,12 @@
         "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/drawable/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/drawable/bg_key.xml",
         "source": "/home/shubham/SmartLock-master/app/src/main/res/drawable/bg_key.xml"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/shubham/.android/build-cache/1adb970f6df4f2ac19cc2ed93a6e877d5cba4a3c/output/res/drawable/abc_edit_text_material.xml"
     },
     {
         "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",

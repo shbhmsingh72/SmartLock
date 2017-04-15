@@ -1,5 +1,7 @@
 package com.shubham.lockscreen.utils;
-
+/**
+ * Created by shubham on 1/4/17.
+ */
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;

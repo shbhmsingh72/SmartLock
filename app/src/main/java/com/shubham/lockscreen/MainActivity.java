@@ -1,5 +1,7 @@
 package com.shubham.lockscreen;
-
+/**
+ * Created by shubham on 28/3/17.
+ */
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;

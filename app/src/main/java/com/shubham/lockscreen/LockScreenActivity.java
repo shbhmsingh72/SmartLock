@@ -1,5 +1,7 @@
 package com.shubham.lockscreen;
-
+/**
+ * Created by shubham on 28/3/17.
+ */
 import android.Manifest;
 import android.app.Activity;
 import android.app.Dialog;
@@ -39,8 +41,6 @@ import java.io.IOException;
 
 public class LockScreenActivity extends AppCompatActivity implements
 		LockscreenUtils.OnLockStatusChangedListener {
-
-	// User-interface
 	private Button btnUnlock;
 	private static final String TAG = "FaceTracker";
 	private CameraSource mCameraSource = null;
@@ -49,9 +49,7 @@ public class LockScreenActivity extends AppCompatActivity implements
 	private GraphicOverlay mGraphicOverlay;
 
 	private static final int RC_HANDLE_GMS = 9001;
-	// permission request codes need to be < 256
 	private static final int RC_HANDLE_CAMERA_PERM = 2;
-	// Member variables
 	private LockscreenUtils mLockscreenUtils;
 	// Set appropriate flags to make the screen appear over the keyguard
 	@Override
@@ -186,14 +184,6 @@ public class LockScreenActivity extends AppCompatActivity implements
 						.build());
 
 		if (!detector.isOperational()) {
-			// Note: The first time that an app using face API is installed on a device, GMS will
-			// download a native library to the device in order to do detection.  Usually this
-			// completes before the app is run for the first time.  But if that download has not yet
-			// completed, then the above call will not detect any faces.
-			//
-			// isOperational() can be used to check if the required native library is currently
-			// available.  The detector will automatically become operational once the library
-			// download completes on device.
 			Log.w(TAG, "Face detector dependencies are not yet available.");
 		}
 
@@ -203,9 +193,7 @@ public class LockScreenActivity extends AppCompatActivity implements
 				.setRequestedFps(30.0f)
 				.build();
 	}
-	/**
-	 * Restarts the camera.
-	 */
+
 	@Override
 	protected void onResume() {
 		super.onResume();
@@ -213,19 +201,12 @@ public class LockScreenActivity extends AppCompatActivity implements
 		startCameraSource();
 	}
 
-	/**
-	 * Stops the camera.
-	 */
 	@Override
 	protected void onPause() {
 		super.onPause();
 		mPreview.stop();
 	}
 
-	/**
-	 * Releases the resources associated with the camera source, the associated detector, and the
-	 * rest of the processing pipeline.
-	 */
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
@@ -234,22 +215,6 @@ public class LockScreenActivity extends AppCompatActivity implements
 		}
 	}
 
-	/**
-	 * Callback for the result from requesting permissions. This method
-	 * is invoked for every call on {@link #requestPermissions(String[], int)}.
-	 * <p>
-	 * <strong>Note:</strong> It is possible that the permissions request interaction
-	 * with the user is interrupted. In this case you will receive empty permissions
-	 * and results arrays which should be treated as a cancellation.
-	 * </p>
-	 *
-	 * @param requestCode  The request code passed in {@link #requestPermissions(String[], int)}.
-	 * @param permissions  The requested permissions. Never null.
-	 * @param grantResults The grant results for the corresponding permissions
-	 *                     which is either {@link PackageManager#PERMISSION_GRANTED}
-	 *                     or {@link PackageManager#PERMISSION_DENIED}. Never null.
-	 * @see #requestPermissions(String[], int)
-	 */
 	@Override
 	public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
 		if (requestCode != RC_HANDLE_CAMERA_PERM) {
@@ -260,7 +225,6 @@ public class LockScreenActivity extends AppCompatActivity implements
 
 		if (grantResults.length != 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 			Log.d(TAG, "Camera permission granted - initialize the camera source");
-			// we have permission, so create the camerasource
 			createCameraSource();
 			return;
 		}
@@ -281,18 +245,8 @@ public class LockScreenActivity extends AppCompatActivity implements
 				.show();
 	}
 
-	//==============================================================================================
-	// Camera Source Preview
-	//==============================================================================================
 
-	/**
-	 * Starts or restarts the camera source, if it exists.  If the camera source doesn't exist yet
-	 * (e.g., because onResume was called before the camera source was created), this will be called
-	 * again when the camera source is created.
-	 */
 	private void startCameraSource() {
-
-		// check that the device has play services available.
 		int code = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(
 				getApplicationContext());
 		if (code != ConnectionResult.SUCCESS) {
@@ -329,10 +283,6 @@ public class LockScreenActivity extends AppCompatActivity implements
 		public void onNewItem(int faceId, Face item) {
 			mFaceGraphic.setId(faceId);
 		}
-
-		/**
-		 * Update the position/characteristics of the face within the overlay.
-		 */
 		@Override
 		public void onUpdate(FaceDetector.Detections<Face> detectionResults, Face face) {
 			SharedPreferences prefs = getSharedPreferences(
@@ -358,33 +308,19 @@ public class LockScreenActivity extends AppCompatActivity implements
 			mOverlay.add(mFaceGraphic);
 			mFaceGraphic.updateFace(face);
 		}
-
-		/**
-		 * Hide the graphic when the corresponding face was not detected.  This can happen for
-		 * intermediate frames temporarily (e.g., if the face was momentarily blocked from
-		 * view).
-		 */
 		@Override
 		public void onMissing(FaceDetector.Detections<Face> detectionResults) {
 			mOverlay.remove(mFaceGraphic);
 		}
-
-		/**
-		 * Called when the face is assumed to be gone for good. Remove the graphic annotation from
-		 * the overlay.
-		 */
 		@Override
 		public void onDone() {
 			mOverlay.remove(mFaceGraphic);
 		}
 	}
-	// Don't finish Activity on Back press
 	@Override
 	public void onBackPressed() {
 		return;
 	}
-
-	// Handle button clicks
 	@Override
 	public boolean onKeyDown(int keyCode, android.view.KeyEvent event) {
 
@@ -403,7 +339,6 @@ public class LockScreenActivity extends AppCompatActivity implements
 
 	}
 
-	// handle the key press events here itself
 	public boolean dispatchKeyEvent(KeyEvent event) {
 		if (event.getKeyCode() == KeyEvent.KEYCODE_VOLUME_UP
 				|| (event.getKeyCode() == KeyEvent.KEYCODE_VOLUME_DOWN)
@@ -417,17 +352,14 @@ public class LockScreenActivity extends AppCompatActivity implements
 		return false;
 	}
 
-	// Lock home button
 	public void lockHomeButton() {
 		mLockscreenUtils.lock(LockScreenActivity.this);
 	}
 
-	// Unlock home button and wait for its callback
 	public void unlockHomeButton() {
 		mLockscreenUtils.unlock();
 	}
 
-	// Simply unlock device when home button is successfully unlocked
 	@Override
 	public void onLockStatusChanged(boolean isLocked) {
 		if (!isLocked) {
@@ -454,8 +386,6 @@ public class LockScreenActivity extends AppCompatActivity implements
 		KeyguardManager.KeyguardLock mKL = mKM.newKeyguardLock("IN");
 		mKL.reenableKeyguard();
 	}
-	
-	//Simply unlock device by finishing the activity
 	private void unlockDevice()
 	{
 		finish();

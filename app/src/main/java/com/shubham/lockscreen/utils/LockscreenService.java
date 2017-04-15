@@ -9,7 +9,9 @@ import android.graphics.Bitmap;
 import android.os.IBinder;
 import android.provider.SyncStateContract.Constants;
 import android.support.v4.app.NotificationCompat;
-
+/**
+ * Created by shubham on 1/4/17.
+ */
 import com.shubham.lockscreen.R;
 public class LockscreenService extends Service {
 

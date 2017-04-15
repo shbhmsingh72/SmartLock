@@ -8,24 +8,24 @@
         "source": "/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/res/drawable-xxhdpi-v4/common_full_open_on_phone.png"
     },
     {
-        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_pressed.9.png"
-    },
-    {
         "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
         "source": "/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
         "source": "/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/res/drawable-xxhdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
         "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
         "source": "/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/res/drawable-xxhdpi-v4/common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/shubham/.android/build-cache/8e3dd564776b47e53ed8f57a39642374a1ca3061/output/res/drawable-xxhdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "/home/shubham/SmartLock-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
