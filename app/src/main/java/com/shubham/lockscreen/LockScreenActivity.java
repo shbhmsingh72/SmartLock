@@ -7,6 +7,7 @@ import android.app.KeyguardManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
@@ -52,7 +53,6 @@ public class LockScreenActivity extends AppCompatActivity implements
 	private static final int RC_HANDLE_CAMERA_PERM = 2;
 	// Member variables
 	private LockscreenUtils mLockscreenUtils;
-
 	// Set appropriate flags to make the screen appear over the keyguard
 	@Override
 	public void onAttachedToWindow() {
@@ -335,6 +335,26 @@ public class LockScreenActivity extends AppCompatActivity implements
 		 */
 		@Override
 		public void onUpdate(FaceDetector.Detections<Face> detectionResults, Face face) {
+			SharedPreferences prefs = getSharedPreferences(
+					"com.shubham.lockscreen", Context.MODE_PRIVATE);
+			int choice=prefs.getInt("Choice",0);
+            if(choice==0)
+            {
+                if(face.getIsLeftEyeOpenProbability()<0.4)
+                    unlockHomeButton();
+            }
+            else if(choice==1){
+				if(face.getIsRightEyeOpenProbability()<0.4)
+					unlockHomeButton();
+			}
+			else if(choice==2){
+				if(face.getIsSmilingProbability()>0.3)
+					unlockHomeButton();
+			}
+			else{
+				if(face.getIsRightEyeOpenProbability()==Face.UNCOMPUTED_PROBABILITY||face.getIsLeftEyeOpenProbability()==Face.UNCOMPUTED_PROBABILITY)
+					unlockHomeButton();
+			}
 			mOverlay.add(mFaceGraphic);
 			mFaceGraphic.updateFace(face);
 		}
